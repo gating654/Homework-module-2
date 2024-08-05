@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комментарий</title>
+</head>
+<body>
+    <header>
+        <strong><h1>Комментарий</h1></strong>
+        <nav id="nav">
+            <ol>
+                <li><a href="index.html#введен">Введение</a></li>
+                <li><a href="index.html#инструм">Инструменты</a></li>
+                <li><a href="index.html#lang">Языки</a></li>
+                <li><a href="second_page.html">Перейти на 2ю страницу</a></li>
+                <li><a href="#">Оставить комментарий</a></li>
+            </ol>
+        </nav>              
+    </header>
+    <hr>
+    <main>
+        <form action="get">
+            <input type="text" name="user_name" placeholder="Введите имя">
+            <br>
+            <br>
+            <input type="text" name="user_surname" placeholder="Введите фамилию">
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="Введите почту"> 
+            <br>
+            <br>
+            <label for="dateBirth">Выберете дату рождения:</label>
+            <input type="date" name="date_of_birth" placeholder="Введите дату рождения" id="dateBirth">
+            <br>
+            <br>
+            <label for="comment">Оставьте ваш комментарий:</label>
+            <br>
+            <textarea name="comment" id="сomment" cols="50" rows="5"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <b>Для связи с нами:</b>
+        <br>
+        Телефон:
+        <a href="tel:8(383)000-00-00">8(383)000-00-00</a>
+        <br>
+        Электронная почта:
+        <a href="mailto:someone@someone.ru">someone@someone.ru</a>
+        <br>
+        <a href="#nav">Навигация</a>
+    </footer>  
+</body>
+</html>
